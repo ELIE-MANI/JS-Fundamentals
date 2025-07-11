@@ -4,8 +4,8 @@ if (args.length === 0) {
   console.log("No Argument");
 }
 else if (args.length === 1) {
-  console.log("Argument found")
+  console.log("1 Argument")
 } 
 else {
-  console.log("Argument found")
+  console.log(`${args.length} arguments`);
 }
